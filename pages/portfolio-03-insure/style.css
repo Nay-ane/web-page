@@ -1,0 +1,41 @@
+.hero-section {
+    height: 500px;
+    background-image: url(../../assets/portfolio/insure/image-insure-hero.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.aside {
+    width: 350px;
+    height: 498px;
+
+    border-top: 1px solid #979797fb;
+    border-bottom: 1px solid #979797fb;
+
+    padding-top: 48px;
+}
+
+.aside__button {
+    all: unset;
+    box-sizing: border-box;
+
+    width: 178px;
+    height: 48px;
+
+    border: 1px solid #33323D;
+
+    text-align: center;
+}
+
+.navigation-pages {
+    height: 130px;
+
+    border-top: 1px solid #979797fb;
+    border-bottom: 1px solid #979797fb;
+    mix-blend-mode: normal;
+}
+
+.nav-arrow {
+    width: 8px;
+    height: 16px;
+}

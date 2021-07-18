@@ -15,6 +15,11 @@
     text-decoration: none;
 }
 
+.header__link:hover {
+    text-decoration: none;
+    color: #5FB4A2;
+}
+
 .contact{
     padding: 0px 160px;
 
@@ -27,7 +32,6 @@
 }
 
 .contact-button {
-    all: unset;
     box-sizing: border-box;
     
     width: 168px;
@@ -35,18 +39,21 @@
 
     border: 1px solid #33323D;
 
-    text-align: center;
-    
+    text-align: center;    
     background-color: #FAFAFA;
 }
 
-.contact-button span {
-    padding: 17px 49px;
+.contact-button a {
+    text-decoration: none;
 }
-.contact-button :hover {
+
+.contact-button:hover {
     border: none;
     background-color: #33323D;
-    color: #FFFFFF;
+}
+
+.contact-button:hover > a {
+    color: #FAFAFA;
 }
 
 .footer {
