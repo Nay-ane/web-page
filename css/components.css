@@ -26,7 +26,7 @@
     height: 84px;
 }
 
-.contact__button {
+.contact-button {
     all: unset;
     box-sizing: border-box;
     
@@ -40,10 +40,10 @@
     background-color: #FAFAFA;
 }
 
-.contact__button span {
+.contact-button span {
     padding: 17px 49px;
 }
-.contact__button :hover {
+.contact-button :hover {
     border: none;
     background-color: #33323D;
     color: #FFFFFF;

@@ -1,0 +1,31 @@
+.container-sections{
+    margin-left: 160px;
+    margin-right: 160px;    
+}
+
+.content-container {
+    width: 350px;
+    height: 500px;
+
+    border-top: 1px solid #979797;
+    border-bottom: 1px solid #979797;
+}
+
+.img-section {
+    width: 540px;
+    height: 500px;
+}
+
+.standard-button {
+    all: unset;
+    box-sizing: border-box;
+    
+    width: 175px;
+    height: 48px;
+
+    border: 1px solid #33323D;
+
+    background-color: #FAFAFA;
+
+    text-align: center;
+}
