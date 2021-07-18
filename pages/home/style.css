@@ -1,0 +1,100 @@
+.hero-section {
+    height: 600px;
+    background-image: url(../../assets/home/image-homepage-hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.content-container {
+    width: 445px;
+    height: 350px;
+    background-color: #FAFAFA;
+}
+
+.hero-section__title {
+    margin: 50px 20px;
+}
+
+.hero-section__button {
+    all: unset;
+    box-sizing: border-box;
+
+    width: 200px;
+    height: 48px;
+    background-color: #203A4C;
+    
+}
+
+.button__text {
+    padding: 18px 20px 18px 40px;
+}
+
+.button__text span{
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+}
+
+.button__icon {
+    width: 48px;
+    height: 48px;
+
+    padding: 18px 18px;
+    background-color: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.1;
+}
+
+.hero-section__button :hover {
+    background-color: #5FB4A2
+}
+
+
+.aboute-me__picture {
+    width: 520px;
+    height: 600px;
+}
+
+.about-me__content {
+    width: 400px;
+    height: 600px;
+
+    padding-top: 40px;
+
+    border-top: 1px solid #979797;
+    border-bottom: 1px solid #979797;
+}
+
+.about-me__description {
+    width: 430px;
+    height: 360px;
+}
+
+.text-center{
+    text-align: center;
+    width: 430px;
+}
+
+.about-me__button {
+    all: unset;
+    box-sizing: border-box;
+
+    width: 204px;
+    height: 48px;
+
+    border: 1px solid #33323D;
+    
+    text-align: center;
+
+    
+}
+
